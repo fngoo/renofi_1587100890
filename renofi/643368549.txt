@@ -1,0 +1,348 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 5de0793f-eda1-4146-a7f1-8449aef58104@1.worker-org-88fdd6b59-w4zxk.gce-production-2
+version: v6.2.6 https://github.com/travis-ci/worker/tree/ba21bd30589fd152126e13df30e0cc78ccdf2837
+instance: travis-job-a32bd38e-51b2-4282-9448-916d45e2516e travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.324419376s
+travis_fold:end:worker_info[0Ktravis_time:start:0756539e[0Ktravis_time:end:0756539e:start=1580302992749964043,finish=1580302992894448956,duration=144484913,event=no_world_writable_dirs[0Ktravis_time:start:129b6bbd[0Ktravis_time:end:129b6bbd:start=1580302992897775715,finish=1580302992906139694,duration=8363979,event=agent[0Ktravis_time:start:0448168e[0Ktravis_time:end:0448168e:start=1580302992909303784,finish=1580302992911791445,duration=2487661,event=check_unsupported[0Ktravis_time:start:12be26b7[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: ruby
+Build group: stable
+Build dist: xenial
+Build id: 643368548
+Job id: 643368549
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 74fa7e3af
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:12be26b7:start=1580302992915056989,finish=1580302992922173911,duration=7116922,event=show_system_info[0Ktravis_time:start:0d2dea9e[0Ktravis_time:end:0d2dea9e:start=1580302992925495951,finish=1580302992938910631,duration=13414680,event=rm_riak_source[0Ktravis_time:start:0633fda2[0Ktravis_time:end:0633fda2:start=1580302992942260940,finish=1580302992948130818,duration=5869878,event=fix_rwky_redis[0Ktravis_time:start:023c7cbd[0Ktravis_time:end:023c7cbd:start=1580302992952788595,finish=1580302993356972593,duration=404183998,event=wait_for_network[0Ktravis_time:start:008f8980[0Ktravis_time:end:008f8980:start=1580302993360248320,finish=1580302993562245632,duration=201997312,event=update_apt_keys[0Ktravis_time:start:10fb37a8[0Ktravis_time:end:10fb37a8:start=1580302993565456445,finish=1580302993618932809,duration=53476364,event=fix_hhvm_source[0Ktravis_time:start:01c223dc[0Ktravis_time:end:01c223dc:start=1580302993622136919,finish=1580302993624591283,duration=2454364,event=update_mongo_arch[0Ktravis_time:start:1984252e[0Ktravis_time:end:1984252e:start=1580302993627594578,finish=1580302993670044113,duration=42449535,event=fix_sudo_enabled_trusty[0Ktravis_time:start:002d70f4[0Ktravis_time:end:002d70f4:start=1580302993673301623,finish=1580302993675616991,duration=2315368,event=update_glibc[0Ktravis_time:start:0bcd94c5[0Ktravis_time:end:0bcd94c5:start=1580302993678652922,finish=1580302993686319335,duration=7666413,event=clean_up_path[0Ktravis_time:start:35255882[0Ktravis_time:end:35255882:start=1580302993689383606,finish=1580302993697692899,duration=8309293,event=fix_resolv_conf[0Ktravis_time:start:0cc9cc90[0Ktravis_time:end:0cc9cc90:start=1580302993700575528,finish=1580302993708825879,duration=8250351,event=fix_etc_hosts[0Ktravis_time:start:02532058[0Ktravis_time:end:02532058:start=1580302993711589473,finish=1580302993720251453,duration=8661980,event=fix_mvn_settings_xml[0Ktravis_time:start:008f1950[0Ktravis_time:end:008f1950:start=1580302993723083436,finish=1580302993731859656,duration=8776220,event=no_ipv6_localhost[0Ktravis_time:start:00271cc6[0Ktravis_time:end:00271cc6:start=1580302993734631524,finish=1580302993736754983,duration=2123459,event=fix_etc_mavenrc[0Ktravis_time:start:0b87c8d2[0Ktravis_time:end:0b87c8d2:start=1580302993739495371,finish=1580302993742154930,duration=2659559,event=fix_wwdr_certificate[0Ktravis_time:start:046154ca[0Ktravis_time:end:046154ca:start=1580302993744854553,finish=1580302993766909698,duration=22055145,event=put_localhost_first[0Ktravis_time:start:0b789928[0Ktravis_time:end:0b789928:start=1580302993769697297,finish=1580302993772381017,duration=2683720,event=home_paths[0Ktravis_time:start:031755c0[0Ktravis_time:end:031755c0:start=1580302993775143649,finish=1580302993786983288,duration=11839639,event=disable_initramfs[0Ktravis_time:start:00db6f15[0Ktravis_time:end:00db6f15:start=1580302993789780801,finish=1580302994090810635,duration=301029834,event=disable_ssh_roaming[0Ktravis_time:start:13031c64[0Ktravis_time:end:13031c64:start=1580302994093896994,finish=1580302994096159241,duration=2262247,event=debug_tools[0Ktravis_time:start:09e88150[0Ktravis_time:end:09e88150:start=1580302994098947123,finish=1580302994101806037,duration=2858914,event=uninstall_oclint[0Ktravis_time:start:00fbc601[0Ktravis_time:end:00fbc601:start=1580302994104620618,finish=1580302994107441960,duration=2821342,event=rvm_use[0Ktravis_time:start:0cded4c8[0Ktravis_time:end:0cded4c8:start=1580302994110210826,finish=1580302994117357347,duration=7146521,event=rm_etc_boto_cfg[0Ktravis_time:start:02e3ef90[0Ktravis_time:end:02e3ef90:start=1580302994120305778,finish=1580302994122953539,duration=2647761,event=rm_oraclejdk8_symlink[0Ktravis_time:start:09756210[0Ktravis_time:end:09756210:start=1580302994125654440,finish=1580302994228243921,duration=102589481,event=enable_i386[0Ktravis_time:start:113a05cc[0Ktravis_time:end:113a05cc:start=1580302994231310642,finish=1580302994237221127,duration=5910485,event=update_rubygems[0Ktravis_time:start:004541ac[0Ktravis_time:end:004541ac:start=1580302994240205101,finish=1580302995027520050,duration=787314949,event=ensure_path_components[0Ktravis_time:start:031cc180[0Ktravis_time:end:031cc180:start=1580302995030691730,finish=1580302995033077567,duration=2385837,event=redefine_curl[0Ktravis_time:start:1c5c5340[0Ktravis_time:end:1c5c5340:start=1580302995035873521,finish=1580302995038309870,duration=2436349,event=nonblock_pipe[0Ktravis_time:start:179b3530[0Ktravis_time:end:179b3530:start=1580302995041291128,finish=1580303001076008174,duration=6034717046,event=apt_get_update[0Ktravis_time:start:07475037[0Ktravis_time:end:07475037:start=1580303001079348450,finish=1580303001081671594,duration=2323144,event=deprecate_xcode_64[0Ktravis_time:start:16d2cd4b[0Ktravis_time:end:16d2cd4b:start=1580303001084441577,finish=1580303003494876586,duration=2410435009,event=update_heroku[0Ktravis_time:start:0b88bd5a[0Ktravis_time:end:0b88bd5a:start=1580303003497785710,finish=1580303003499824601,duration=2038891,event=shell_session_update[0Ktravis_time:start:107441a4[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:107441a4:start=1580303003502485147,finish=1580303005741669977,duration=2239184830,event=set_docker_mtu[0Ktravis_time:start:26864736[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:26864736:start=1580303005745065782,finish=1580303005812036953,duration=66971171,event=resolvconf[0Ktravis_time:start:078449f9[0Ktravis_time:end:078449f9:start=1580303005821437955,finish=1580303005962542492,duration=141104537,event=maven_central_mirror[0Ktravis_time:start:15a1967e[0Ktravis_time:end:15a1967e:start=1580303005965567792,finish=1580303006063075578,duration=97507786,event=maven_https[0Ktravis_time:start:01fa3461[0Ktravis_time:end:01fa3461:start=1580303006066755611,finish=1580303006069188211,duration=2432600,event=fix_ps4[0Ktravis_time:start:02b5285c[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:03b8a4cf[0K$ git clone --depth=50 --branch=v1.2.0 https://github.com/RenoFi/jackhammer.git RenoFi/jackhammer
+Cloning into 'RenoFi/jackhammer'...
+remote: Enumerating objects: 65, done.[K
+remote: Counting objects:   1% (1/65)[Kremote: Counting objects:   3% (2/65)[Kremote: Counting objects:   4% (3/65)[Kremote: Counting objects:   6% (4/65)[Kremote: Counting objects:   7% (5/65)[Kremote: Counting objects:   9% (6/65)[Kremote: Counting objects:  10% (7/65)[Kremote: Counting objects:  12% (8/65)[Kremote: Counting objects:  13% (9/65)[Kremote: Counting objects:  15% (10/65)[Kremote: Counting objects:  16% (11/65)[Kremote: Counting objects:  18% (12/65)[Kremote: Counting objects:  20% (13/65)[Kremote: Counting objects:  21% (14/65)[Kremote: Counting objects:  23% (15/65)[Kremote: Counting objects:  24% (16/65)[Kremote: Counting objects:  26% (17/65)[Kremote: Counting objects:  27% (18/65)[Kremote: Counting objects:  29% (19/65)[Kremote: Counting objects:  30% (20/65)[Kremote: Counting objects:  32% (21/65)[Kremote: Counting objects:  33% (22/65)[Kremote: Counting objects:  35% (23/65)[Kremote: Counting objects:  36% (24/65)[Kremote: Counting objects:  38% (25/65)[Kremote: Counting objects:  40% (26/65)[Kremote: Counting objects:  41% (27/65)[Kremote: Counting objects:  43% (28/65)[Kremote: Counting objects:  44% (29/65)[Kremote: Counting objects:  46% (30/65)[Kremote: Counting objects:  47% (31/65)[Kremote: Counting objects:  49% (32/65)[Kremote: Counting objects:  50% (33/65)[Kremote: Counting objects:  52% (34/65)[Kremote: Counting objects:  53% (35/65)[Kremote: Counting objects:  55% (36/65)[Kremote: Counting objects:  56% (37/65)[Kremote: Counting objects:  58% (38/65)[Kremote: Counting objects:  60% (39/65)[Kremote: Counting objects:  61% (40/65)[Kremote: Counting objects:  63% (41/65)[Kremote: Counting objects:  64% (42/65)[Kremote: Counting objects:  66% (43/65)[Kremote: Counting objects:  67% (44/65)[Kremote: Counting objects:  69% (45/65)[Kremote: Counting objects:  70% (46/65)[Kremote: Counting objects:  72% (47/65)[Kremote: Counting objects:  73% (48/65)[Kremote: Counting objects:  75% (49/65)[Kremote: Counting objects:  76% (50/65)[Kremote: Counting objects:  78% (51/65)[Kremote: Counting objects:  80% (52/65)[Kremote: Counting objects:  81% (53/65)[Kremote: Counting objects:  83% (54/65)[Kremote: Counting objects:  84% (55/65)[Kremote: Counting objects:  86% (56/65)[Kremote: Counting objects:  87% (57/65)[Kremote: Counting objects:  89% (58/65)[Kremote: Counting objects:  90% (59/65)[Kremote: Counting objects:  92% (60/65)[Kremote: Counting objects:  93% (61/65)[Kremote: Counting objects:  95% (62/65)[Kremote: Counting objects:  96% (63/65)[Kremote: Counting objects:  98% (64/65)[Kremote: Counting objects: 100% (65/65)[Kremote: Counting objects: 100% (65/65), done.[K
+remote: Compressing objects:   2% (1/42)[Kremote: Compressing objects:   4% (2/42)[Kremote: Compressing objects:   7% (3/42)[Kremote: Compressing objects:   9% (4/42)[Kremote: Compressing objects:  11% (5/42)[Kremote: Compressing objects:  14% (6/42)[Kremote: Compressing objects:  16% (7/42)[Kremote: Compressing objects:  19% (8/42)[Kremote: Compressing objects:  21% (9/42)[Kremote: Compressing objects:  23% (10/42)[Kremote: Compressing objects:  26% (11/42)[Kremote: Compressing objects:  28% (12/42)[Kremote: Compressing objects:  30% (13/42)[Kremote: Compressing objects:  33% (14/42)[Kremote: Compressing objects:  35% (15/42)[Kremote: Compressing objects:  38% (16/42)[Kremote: Compressing objects:  40% (17/42)[Kremote: Compressing objects:  42% (18/42)[Kremote: Compressing objects:  45% (19/42)[Kremote: Compressing objects:  47% (20/42)[Kremote: Compressing objects:  50% (21/42)[Kremote: Compressing objects:  52% (22/42)[Kremote: Compressing objects:  54% (23/42)[Kremote: Compressing objects:  57% (24/42)[Kremote: Compressing objects:  59% (25/42)[Kremote: Compressing objects:  61% (26/42)[Kremote: Compressing objects:  64% (27/42)[Kremote: Compressing objects:  66% (28/42)[Kremote: Compressing objects:  69% (29/42)[Kremote: Compressing objects:  71% (30/42)[Kremote: Compressing objects:  73% (31/42)[Kremote: Compressing objects:  76% (32/42)[Kremote: Compressing objects:  78% (33/42)[Kremote: Compressing objects:  80% (34/42)[Kremote: Compressing objects:  83% (35/42)[Kremote: Compressing objects:  85% (36/42)[Kremote: Compressing objects:  88% (37/42)[Kremote: Compressing objects:  90% (38/42)[Kremote: Compressing objects:  92% (39/42)[Kremote: Compressing objects:  95% (40/42)[Kremote: Compressing objects:  97% (41/42)[Kremote: Compressing objects: 100% (42/42)[Kremote: Compressing objects: 100% (42/42), done.[K
+Receiving objects:   0% (1/348)   Receiving objects:   1% (4/348)   Receiving objects:   2% (7/348)   Receiving objects:   3% (11/348)   Receiving objects:   4% (14/348)   Receiving objects:   5% (18/348)   Receiving objects:   6% (21/348)   Receiving objects:   7% (25/348)   Receiving objects:   8% (28/348)   Receiving objects:   9% (32/348)   Receiving objects:  10% (35/348)   Receiving objects:  11% (39/348)   Receiving objects:  12% (42/348)   Receiving objects:  13% (46/348)   Receiving objects:  14% (49/348)   Receiving objects:  15% (53/348)   Receiving objects:  16% (56/348)   Receiving objects:  17% (60/348)   Receiving objects:  18% (63/348)   Receiving objects:  19% (67/348)   Receiving objects:  20% (70/348)   Receiving objects:  21% (74/348)   Receiving objects:  22% (77/348)   Receiving objects:  23% (81/348)   Receiving objects:  24% (84/348)   Receiving objects:  25% (87/348)   Receiving objects:  26% (91/348)   Receiving objects:  27% (94/348)   Receiving objects:  28% (98/348)   Receiving objects:  29% (101/348)   Receiving objects:  30% (105/348)   Receiving objects:  31% (108/348)   Receiving objects:  32% (112/348)   Receiving objects:  33% (115/348)   Receiving objects:  34% (119/348)   Receiving objects:  35% (122/348)   Receiving objects:  36% (126/348)   Receiving objects:  37% (129/348)   Receiving objects:  38% (133/348)   Receiving objects:  39% (136/348)   Receiving objects:  40% (140/348)   Receiving objects:  41% (143/348)   Receiving objects:  42% (147/348)   Receiving objects:  43% (150/348)   Receiving objects:  44% (154/348)   Receiving objects:  45% (157/348)   Receiving objects:  46% (161/348)   Receiving objects:  47% (164/348)   Receiving objects:  48% (168/348)   Receiving objects:  49% (171/348)   Receiving objects:  50% (174/348)   Receiving objects:  51% (178/348)   Receiving objects:  52% (181/348)   Receiving objects:  53% (185/348)   Receiving objects:  54% (188/348)   Receiving objects:  55% (192/348)   Receiving objects:  56% (195/348)   Receiving objects:  57% (199/348)   Receiving objects:  58% (202/348)   Receiving objects:  59% (206/348)   Receiving objects:  60% (209/348)   Receiving objects:  61% (213/348)   Receiving objects:  62% (216/348)   Receiving objects:  63% (220/348)   Receiving objects:  64% (223/348)   Receiving objects:  65% (227/348)   Receiving objects:  66% (230/348)   Receiving objects:  67% (234/348)   Receiving objects:  68% (237/348)   Receiving objects:  69% (241/348)   Receiving objects:  70% (244/348)   Receiving objects:  71% (248/348)   Receiving objects:  72% (251/348)   Receiving objects:  73% (255/348)   Receiving objects:  74% (258/348)   Receiving objects:  75% (261/348)   Receiving objects:  76% (265/348)   Receiving objects:  77% (268/348)   Receiving objects:  78% (272/348)   Receiving objects:  79% (275/348)   Receiving objects:  80% (279/348)   Receiving objects:  81% (282/348)   Receiving objects:  82% (286/348)   Receiving objects:  83% (289/348)   Receiving objects:  84% (293/348)   remote: Total 348 (delta 25), reused 52 (delta 21), pack-reused 283[K
+Receiving objects:  85% (296/348)   Receiving objects:  86% (300/348)   Receiving objects:  87% (303/348)   Receiving objects:  88% (307/348)   Receiving objects:  89% (310/348)   Receiving objects:  90% (314/348)   Receiving objects:  91% (317/348)   Receiving objects:  92% (321/348)   Receiving objects:  93% (324/348)   Receiving objects:  94% (328/348)   Receiving objects:  95% (331/348)   Receiving objects:  96% (335/348)   Receiving objects:  97% (338/348)   Receiving objects:  98% (342/348)   Receiving objects:  99% (345/348)   Receiving objects: 100% (348/348)   Receiving objects: 100% (348/348), 66.98 KiB | 2.48 MiB/s, done.
+Resolving deltas:   0% (0/179)   Resolving deltas:   1% (2/179)   Resolving deltas:  27% (50/179)   Resolving deltas:  30% (54/179)   Resolving deltas:  31% (57/179)   Resolving deltas:  32% (58/179)   Resolving deltas:  34% (61/179)   Resolving deltas:  36% (66/179)   Resolving deltas:  37% (67/179)   Resolving deltas:  38% (69/179)   Resolving deltas:  39% (71/179)   Resolving deltas:  42% (76/179)   Resolving deltas:  43% (78/179)   Resolving deltas:  46% (83/179)   Resolving deltas:  60% (108/179)   Resolving deltas:  63% (113/179)   Resolving deltas:  64% (115/179)   Resolving deltas:  66% (119/179)   Resolving deltas:  67% (121/179)   Resolving deltas:  70% (126/179)   Resolving deltas:  72% (129/179)   Resolving deltas:  73% (131/179)   Resolving deltas:  74% (133/179)   Resolving deltas:  77% (139/179)   Resolving deltas:  78% (140/179)   Resolving deltas:  79% (143/179)   Resolving deltas:  82% (148/179)   Resolving deltas:  86% (155/179)   Resolving deltas:  90% (162/179)   Resolving deltas:  93% (168/179)   Resolving deltas:  94% (170/179)   Resolving deltas:  97% (175/179)   Resolving deltas:  98% (176/179)   Resolving deltas: 100% (179/179)   Resolving deltas: 100% (179/179), done.
+Note: checking out '433865bca7a4905d420b766119d0b4b7e46d6ab8'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+travis_time:end:03b8a4cf:start=1580303006075557479,finish=1580303006764430730,duration=688873251,event=checkout[0K$ cd RenoFi/jackhammer
+$ git checkout -qf v1.2.0
+travis_fold:end:git.checkout[0K
+travis_time:end:03b8a4cf:start=1580303006075557479,finish=1580303006770120206,duration=694562727,event=checkout[0Ktravis_time:start:267f2fb1[0Ktravis_time:end:267f2fb1:start=1580303006773336014,finish=1580303006779065377,duration=5729363,event=env[0Ktravis_time:start:27578558[0K$ rvm alias create 2.5 ruby-2.5.5
+[31mRequired ruby-2.5.5 is not installed.[0m
+[0m[32mCreating alias 2.5 for ruby-2.5.5[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|.
+travis_time:end:27578558:start=1580303006945448740,finish=1580303007185408956,duration=239960216,event=setup[0Ktravis_fold:start:rvm[0Ktravis_time:start:02575dbb[0K$ rvm use 2.5 --install --binary --fuzzy
+curl: (22) The requested URL returned error: 404 Not Found
+[33mRequired ruby-2.5.5 is not installed - installing.[0m
+[0mcurl: (22) The requested URL returned error: 404 Not Found
+Searching for binary rubies, this might take some time.
+Found remote file https://rubies.travis-ci.org/ubuntu/16.04/x86_64/ruby-2.5.5.tar.bz2
+Checking requirements for ubuntu.
+Requirements installation successful.
+ruby-2.5.5 - #configure
+ruby-2.5.5 - #download
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 17.2M  100 17.2M    0     0  20.1M      0 --:--:-- --:--:-- --:--:-- 20.1M
+[33mNo checksum for downloaded archive, recording checksum in user configuration.[0m
+[0mruby-2.5.5 - #validate archive
+ruby-2.5.5 - #extract
+ruby-2.5.5 - #validate binary
+ruby-2.5.5 - #setup
+ruby-2.5.5 - #gemset created /home/travis/.rvm/gems/ruby-2.5.5@global
+[32mruby-2.5.5 - #importing gemset /home/travis/.rvm/gemsets/global.gems[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|..
+[32mruby-2.5.5 - #generating global wrappers[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-.
+[32mruby-2.5.5 - #uninstalling gem rubygems-bundler-1.4.5[0m|/.
+ruby-2.5.5 - #gemset created /home/travis/.rvm/gems/ruby-2.5.5
+[32mruby-2.5.5 - #importing gemset /home/travis/.rvm/gemsets/default.gems[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-.
+[32mruby-2.5.5 - #generating default wrappers[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\.
+Using /home/travis/.rvm/gems/ruby-2.5.5
+travis_time:end:02575dbb:start=1580303007189555422,finish=1580303026490421925,duration=19300866503,event=[0Ktravis_fold:end:rvm[0K
+$ export BUNDLE_GEMFILE=$PWD/Gemfile
+travis_fold:start:cache.1[0KSetting up build cache
+$ export CASHER_DIR=${TRAVIS_HOME}/.casher
+travis_time:start:134c1afe[0K$ Installing caching utilities
+travis_time:end:134c1afe:start=1580303027177905531,finish=1580303027460320289,duration=282414758,event=setup_casher[0Ktravis_time:start:167d0d3b[0Ktravis_time:end:167d0d3b:start=1580303027465582832,finish=1580303027468665881,duration=3083049,event=setup_casher[0Ktravis_time:start:1c5f5c5e[0Kattempting to download cache archive[0m
+[32;1mfetching v1.2.0/cache--linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--rvm-2.5--gemfile-Gemfile.tgz[0m
+[32;1mfetching v1.2.0/cache-linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--rvm-2.5--gemfile-Gemfile.tgz[0m
+[32;1mfetching v1.2.0/cache--rvm-2.5--gemfile-Gemfile.tgz[0m
+[32;1mfetching master/cache--linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--rvm-2.5--gemfile-Gemfile.tgz[0m
+[32;1mfound cache[0m
+travis_time:end:1c5f5c5e:start=1580303027472513919,finish=1580303029582011278,duration=2109497359,event=setup_casher[0Ktravis_fold:end:cache.1[0K
+
+travis_fold:start:cache.bundler[0Ktravis_time:start:0f63f825[0Ktravis_time:end:0f63f825:start=1580303029586496027,finish=1580303029589397454,duration=2901427,event=setup_cache[0Ktravis_time:start:01a0d8d0[0Kadding /home/travis/build/RenoFi/jackhammer/vendor/bundle to cache[0m
+creating directory /home/travis/build/RenoFi/jackhammer/vendor/bundle[0m
+travis_time:end:01a0d8d0:start=1580303029593138204,finish=1580303030723749601,duration=1130611397,event=setup_cache[0Ktravis_fold:end:cache.bundler[0Ktravis_fold:start:ruby.versions[0K$ ruby --version
+ruby 2.5.5p157 (2019-03-15 revision 67260) [x86_64-linux]
+$ rvm --version
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+$ bundle --version
+Bundler version 2.1.4
+$ gem --version
+3.0.3
+travis_fold:end:ruby.versions[0K
+travis_fold:start:before_install[0Ktravis_time:start:23de0f1f[0K$ gem install bundler
+Successfully installed bundler-2.1.4
+1 gem installed
+travis_time:end:23de0f1f:start=1580303031112152891,finish=1580303031580278561,duration=468125670,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install.bundler[0Ktravis_time:start:280b998a[0K$ bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
+[33m[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set deployment 'true'`, and stop using this flag[0m
+Fetching gem metadata from https://rubygems.org/...........
+Using rake 13.0.1
+Using amq-protocol 2.3.0
+Using bundler 2.1.4
+Fetching byebug 11.1.1
+Using ast 2.4.0
+Using diff-lcs 1.3
+Using jaro_winkler 1.5.4
+Using parallel 1.19.1
+Using rainbow 3.0.0
+Using rspec-support 3.9.2
+Using ruby-progressbar 1.10.1
+Fetching unicode-display_width 1.6.1
+Installing unicode-display_width 1.6.1
+Using bunny 2.14.3
+Using parser 2.7.0.2
+Using rspec-core 3.9.1
+Using rspec-expectations 3.9.0
+Using rspec-mocks 3.9.1
+Using bunny-mock 1.7.0
+Using jackhammer 1.2.0 from source at `.`
+Using rspec 3.9.0
+Using rubocop 0.79.0
+Using rubocop-performance 1.5.2
+Installing byebug 11.1.1 with native extensions
+Bundle complete! 8 Gemfile dependencies, 22 gems now installed.
+Bundled gems are installed into `./vendor/bundle`
+travis_time:end:280b998a:start=1580303031585380554,finish=1580303035271182290,duration=3685801736,event=install[0Ktravis_fold:end:install.bundler[0K
+travis_time:start:0eb9bb9b[0K$ bundle exec rake
+Running RuboCop...
+Inspecting 26 files
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m
+
+26 files inspected, [32mno offenses[0m detected
+/home/travis/.rvm/rubies/ruby-2.5.5/bin/ruby -I/home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0/gems/rspec-core-3.9.1/lib:/home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0/gems/rspec-support-3.9.2/lib /home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0/gems/rspec-core-3.9.1/exe/rspec --pattern spec/\*\*\{,/\*/\*\*\}/\*_spec.rb
+
+Jackhammer::TestCLI
+  #run
+[32m    is expected to be[0m
+
+Jackhammer::MessageReceiver
+  #call
+    when handler_class is not a constant
+[32m      is expected to raise NameError with "uninitialized constant NotAConstant"[0m
+    when handler_class defines .call
+[32m      is expected to be[0m
+    when handler_class also defines .perform_async
+[32m      is expected to be[0m
+
+Jackhammer::QueueName
+  .from_routing_key
+    when app_name is set
+[32m      is expected to eq "test_app_food_burgers_q"[0m
+    when app_name is not set
+[32m      is expected to raise InvalidConfigError[0m
+
+Jackhammer::Server
+  .configure
+    when class TestApp < Jackhammer::Server
+[32m      sets Jackhammer.configuration.server to TestApp[0m
+
+Jackhammer::TopicManager
+  .topics
+    when configuration yaml contains empty config
+[32m      is expected to eq {}[0m
+    when configuration yaml defines queues as hash
+[32m      is expected to be a kind of Hash[0m
+      .topics[:my_topic]
+[32m        is expected to eq "first_queue"[0m
+    when configuration yaml defines queues as array
+      having queue name specified
+[32m        is expected to eq "first_queue"[0m
+      having no queue name specified
+[32m        is expected to eq "test_app_first_queue_event_q"[0m
+    when configuration yaml defines contains invalid queue config without routing_key
+[32m      is expected to raise InvalidConfigError[0m
+
+Jackhammer
+[32m  has a version number[0m
+[32m  has singleton access to a Jackhammer::Configuration object[0m
+[32m  has singleton access to a Bunny::Channel object[0m
+[32m  has singleton access to a Bunny::Session object[0m
+[32m  can set the Bunny connection for test purposes[0m
+
+Finished in 0.01706 seconds (files took 0.18393 seconds to load)
+[32m18 examples, 0 failures[0m
+
+travis_time:end:0eb9bb9b:start=1580303035275982454,finish=1580303037259457961,duration=1983475507,event=script[0K[32;1mThe command "bundle exec rake" exited with 0.[0m
+travis_fold:start:cache.2[0Kstore build cache
+$ bundle clean
+Removing unicode-display_width (1.6.0)
+Removing byebug (11.0.1)
+travis_time:start:05883d9e[0Ktravis_time:end:05883d9e:start=1580303037480387357,finish=1580303037483512998,duration=3125641,event=cache[0Ktravis_time:start:078d4e28[0K[32;1mchanges detected (content changed, file is created, or file is deleted):\n/home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0/bin/jackhammer
+/home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0/cache/byebug-11.0.1.gem
+/home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0/cache/byebug-11.1.1.gem
+/home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0/cache/unicode-display_width-1.6.0.gem
+/home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0/cache/unicode-display_width-1.6.1.gem
+/home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0/extensions/x86_64-linux/2.5.0/byebug-11.0.1/byebug/byebug.so
+/home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0/extensions/x86_64-linux/2.5.0/byebug-11.0.1/gem.build_complete
+/home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0/extensions/x86_64-linux/2.5.0/byebug-11.0.1/gem_make.out
+/home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0/extensions/x86_64-linux/2.5.0/byebug-11.1.1/byebug/byebug.so
+/home/travis/build/RenoFi/jackhammer/vendor/bundle/ruby/2.5.0\n...[0m
+[32;1mchanges detected, packing new archive[0m
+[32;1muploading v1.2.0/cache--linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--rvm-2.5--gemfile-Gemfile.tgz[0m
+[32;1mcache uploaded[0m
+travis_time:end:078d4e28:start=1580303037487658375,finish=1580303039098786521,duration=1611128146,event=cache[0Ktravis_fold:end:cache.2[0K
+
+Done. Your build exited with 0.
