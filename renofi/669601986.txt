@@ -1,184 +1,0 @@
-travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: 21a679a0-b4ba-481a-9656-1da97fa7e2fa@1.worker-org-689d9fcfd5-5c7rf.gce-production-1
-version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
-instance: travis-job-c27f9b07-cefd-401a-a3d9-ef8872b339b6 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
-startup: 5.99569629s
-travis_fold:end:worker_info[0Ktravis_time:start:0f3cf761[0Ktravis_time:end:0f3cf761:start=1585732268744429864,finish=1585732268878571268,duration=134141404,event=no_world_writable_dirs[0Ktravis_time:start:213764c8[0Ktravis_time:end:213764c8:start=1585732268881578644,finish=1585732268888699142,duration=7120498,event=agent[0Ktravis_time:start:252101cd[0Ktravis_time:end:252101cd:start=1585732268891725392,finish=1585732268893878838,duration=2153446,event=check_unsupported[0Ktravis_time:start:0076932e[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
-Build language: ruby
-Build dist: xenial
-Build id: 669601985
-Job id: 669601986
-Runtime kernel version: 4.15.0-1028-gcp
-travis-build version: f65a8dc88
-[34m[1mBuild image provisioning date and time[0m
-Mon Mar 25 16:43:24 UTC 2019
-[34m[1mOperating System Details[0m
-Distributor ID:	Ubuntu
-Description:	Ubuntu 16.04.6 LTS
-Release:	16.04
-Codename:	xenial
-[34m[1mSystemd Version[0m
-systemd 229
-[34m[1mCookbooks Version[0m
-42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
-[34m[1mgit version[0m
-git version 2.21.0
-[34m[1mbash version[0m
-GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
-[34m[1mgcc version[0m
-gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
-[34m[1mdocker version[0m
-Client:
- Version:           18.06.0-ce
- API version:       1.38
- Go version:        go1.10.3
- Git commit:        0ffa825
- Built:             Wed Jul 18 19:11:02 2018
- OS/Arch:           linux/amd64
- Experimental:      false
-
-Server:
- Engine:
-  Version:          18.06.0-ce
-  API version:      1.38 (minimum version 1.12)
-  Go version:       go1.10.3
-  Git commit:       0ffa825
-  Built:            Wed Jul 18 19:09:05 2018
-  OS/Arch:          linux/amd64
-  Experimental:     false
-[34m[1mclang version[0m
-clang version 7.0.0 (tags/RELEASE_700/final)
-[34m[1mjq version[0m
-jq-1.5
-[34m[1mbats version[0m
-Bats 0.4.0
-[34m[1mshellcheck version[0m
-0.6.0
-[34m[1mshfmt version[0m
-v2.6.3
-[34m[1mccache version[0m
-3.2.4
-[34m[1mcmake version[0m
-cmake version 3.12.4
-[34m[1mheroku version[0m
-heroku/7.22.7 linux-x64 node-v11.10.1
-[34m[1mimagemagick version[0m
-Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
-[34m[1mmd5deep version[0m
-4.4
-[34m[1mmercurial version[0m
-version 4.8
-[34m[1mmysql version[0m
-mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
-[34m[1mopenssl version[0m
-OpenSSL 1.0.2g  1 Mar 2016
-[34m[1mpacker version[0m
-1.3.3
-[34m[1mpostgresql client version[0m
-psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
-[34m[1mragel version[0m
-Ragel State Machine Compiler version 6.8 Feb 2013
-[34m[1msudo version[0m
-1.8.16
-[34m[1mgzip version[0m
-gzip 1.6
-[34m[1mzip version[0m
-Zip 3.0
-[34m[1mvim version[0m
-VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
-[34m[1miptables version[0m
-iptables v1.6.0
-[34m[1mcurl version[0m
-curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
-[34m[1mwget version[0m
-GNU Wget 1.17.1 built on linux-gnu.
-[34m[1mrsync version[0m
-rsync  version 3.1.1  protocol version 31
-[34m[1mgimme version[0m
-v1.5.3
-[34m[1mnvm version[0m
-0.34.0
-[34m[1mperlbrew version[0m
-/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
-[34m[1mphpenv version[0m
-rbenv 1.1.2
-[34m[1mrvm version[0m
-rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
-[34m[1mdefault ruby version[0m
-ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
-[34m[1mCouchDB version[0m
-couchdb 1.6.1
-[34m[1mElasticSearch version[0m
-5.5.0
-[34m[1mInstalled Firefox version[0m
-firefox 63.0.1
-[34m[1mMongoDB version[0m
-MongoDB 4.0.7
-[34m[1mPhantomJS version[0m
-2.1.1
-[34m[1mPre-installed PostgreSQL versions[0m
-9.4.21
-9.5.16
-9.6.12
-[34m[1mRedis version[0m
-redis-server 5.0.4
-[34m[1mPre-installed Go versions[0m
-1.11.1
-[34m[1mmvn version[0m
-Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
-[34m[1mgradle version[0m
-Gradle 4.10.2!
-[34m[1mlein version[0m
-Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
-[34m[1mPre-installed Node.js versions[0m
-v10.15.3
-v11.0.0
-v4.9.1
-v6.17.0
-v8.12.0
-v8.15.1
-v8.9
-[34m[1mphpenv versions[0m
-  system
-  5.6
-  5.6.40
-  7.1
-  7.1.27
-  7.2
-* 7.2.15 (set by /home/travis/.phpenv/version)
-  hhvm
-  hhvm-stable
-[34m[1mcomposer --version[0m
-Composer version 1.8.4 2019-02-11 10:52:10
-[34m[1mPre-installed Ruby versions[0m
-ruby-2.3.8
-ruby-2.4.5
-ruby-2.5.3
-travis_fold:end:system_info[0K
-travis_time:end:0076932e:start=1585732268897135779,finish=1585732268904200380,duration=7064601,event=show_system_info[0Ktravis_time:start:0a983dec[0Ktravis_time:end:0a983dec:start=1585732268907074821,finish=1585732268919528439,duration=12453618,event=rm_riak_source[0Ktravis_time:start:29fb001f[0Ktravis_time:end:29fb001f:start=1585732268922537324,finish=1585732268927456511,duration=4919187,event=fix_rwky_redis[0Ktravis_time:start:06ec200a[0Ktravis_time:end:06ec200a:start=1585732268933290485,finish=1585732269323480217,duration=390189732,event=wait_for_network[0Ktravis_time:start:0706f6f4[0Ktravis_time:end:0706f6f4:start=1585732269326660307,finish=1585732269530442623,duration=203782316,event=update_apt_keys[0Ktravis_time:start:0e677452[0Ktravis_time:end:0e677452:start=1585732269533299900,finish=1585732269583915028,duration=50615128,event=fix_hhvm_source[0Ktravis_time:start:03c59a40[0Ktravis_time:end:03c59a40:start=1585732269586985360,finish=1585732269589552953,duration=2567593,event=update_mongo_arch[0Ktravis_time:start:0591aadc[0Ktravis_time:end:0591aadc:start=1585732269592210033,finish=1585732269631477338,duration=39267305,event=fix_sudo_enabled_trusty[0Ktravis_time:start:1aea23b9[0Ktravis_time:end:1aea23b9:start=1585732269634419781,finish=1585732269636389415,duration=1969634,event=update_glibc[0Ktravis_time:start:0f34666e[0Ktravis_time:end:0f34666e:start=1585732269639031916,finish=1585732269645997214,duration=6965298,event=clean_up_path[0Ktravis_time:start:03a579a8[0Ktravis_time:end:03a579a8:start=1585732269648670950,finish=1585732269655739586,duration=7068636,event=fix_resolv_conf[0Ktravis_time:start:05b16b3b[0Ktravis_time:end:05b16b3b:start=1585732269658485846,finish=1585732269666496733,duration=8010887,event=fix_etc_hosts[0Ktravis_time:start:08c70738[0Ktravis_time:end:08c70738:start=1585732269669116265,finish=1585732269676698809,duration=7582544,event=fix_mvn_settings_xml[0Ktravis_time:start:0342df38[0Ktravis_time:end:0342df38:start=1585732269679361786,finish=1585732269687671372,duration=8309586,event=no_ipv6_localhost[0Ktravis_time:start:139da310[0Ktravis_time:end:139da310:start=1585732269690337876,finish=1585732269692314248,duration=1976372,event=fix_etc_mavenrc[0Ktravis_time:start:06b87fa6[0Ktravis_time:end:06b87fa6:start=1585732269694951999,finish=1585732269697713358,duration=2761359,event=fix_wwdr_certificate[0Ktravis_time:start:0e1f20df[0Ktravis_time:end:0e1f20df:start=1585732269700324828,finish=1585732269721288482,duration=20963654,event=put_localhost_first[0Ktravis_time:start:00843a9e[0Ktravis_time:end:00843a9e:start=1585732269723949382,finish=1585732269726669786,duration=2720404,event=home_paths[0Ktravis_time:start:0eb9bf78[0Ktravis_time:end:0eb9bf78:start=1585732269729392222,finish=1585732269740386914,duration=10994692,event=disable_initramfs[0Ktravis_time:start:1bfc46c3[0Ktravis_time:end:1bfc46c3:start=1585732269743106767,finish=1585732270040514818,duration=297408051,event=disable_ssh_roaming[0Ktravis_time:start:01692014[0Ktravis_time:end:01692014:start=1585732270043570150,finish=1585732270045879960,duration=2309810,event=debug_tools[0Ktravis_time:start:069502a0[0Ktravis_time:end:069502a0:start=1585732270048828097,finish=1585732270051709107,duration=2881010,event=uninstall_oclint[0Ktravis_time:start:02649030[0Ktravis_time:end:02649030:start=1585732270054543853,finish=1585732270057380945,duration=2837092,event=rvm_use[0Ktravis_time:start:067947d8[0Ktravis_time:end:067947d8:start=1585732270060055051,finish=1585732270067112617,duration=7057566,event=rm_etc_boto_cfg[0Ktravis_time:start:0f856caa[0Ktravis_time:end:0f856caa:start=1585732270069960715,finish=1585732270072434798,duration=2474083,event=rm_oraclejdk8_symlink[0Ktravis_time:start:19472d51[0Ktravis_time:end:19472d51:start=1585732270075205565,finish=1585732270172895393,duration=97689828,event=enable_i386[0Ktravis_time:start:0190359c[0Ktravis_time:end:0190359c:start=1585732270176044721,finish=1585732270183208840,duration=7164119,event=update_rubygems[0Ktravis_time:start:2c31f547[0Ktravis_time:end:2c31f547:start=1585732270186446785,finish=1585732270956727973,duration=770281188,event=ensure_path_components[0Ktravis_time:start:026fb000[0Ktravis_time:end:026fb000:start=1585732270959690138,finish=1585732270961755623,duration=2065485,event=redefine_curl[0Ktravis_time:start:174b507a[0Ktravis_time:end:174b507a:start=1585732270964299565,finish=1585732270966251866,duration=1952301,event=nonblock_pipe[0Ktravis_time:start:1db68483[0Ktravis_time:end:1db68483:start=1585732270968916019,finish=1585732277001177682,duration=6032261663,event=apt_get_update[0Ktravis_time:start:0a22f346[0Ktravis_time:end:0a22f346:start=1585732277004143262,finish=1585732277006240933,duration=2097671,event=deprecate_xcode_64[0Ktravis_time:start:0903ad50[0Ktravis_time:end:0903ad50:start=1585732277008993377,finish=1585732279465115356,duration=2456121979,event=update_heroku[0Ktravis_time:start:04397256[0Ktravis_time:end:04397256:start=1585732279468025319,finish=1585732279470080799,duration=2055480,event=shell_session_update[0Ktravis_time:start:009a2266[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:009a2266:start=1585732279472755792,finish=1585732281689214334,duration=2216458542,event=set_docker_mtu[0Ktravis_time:start:08e9edb0[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:08e9edb0:start=1585732281693422038,finish=1585732281753526614,duration=60104576,event=resolvconf[0Ktravis_time:start:02ab3eb8[0Ktravis_time:end:02ab3eb8:start=1585732281757721543,finish=1585732281903831768,duration=146110225,event=maven_central_mirror[0Ktravis_time:start:2f7577e8[0Ktravis_time:end:2f7577e8:start=1585732281907169748,finish=1585732282000925390,duration=93755642,event=maven_https[0Ktravis_time:start:03bf2b58[0Ktravis_time:end:03bf2b58:start=1585732282004061950,finish=1585732282006223976,duration=2162026,event=fix_ps4[0Ktravis_time:start:04a5c419[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:006123f3[0K$ git clone --depth=50 --branch=dependabot/bundler/rspec-expectations-3.9.1 https://github.com/RenoFi/jackhammer.git RenoFi/jackhammer
-Cloning into 'RenoFi/jackhammer'...
-warning: Could not find remote branch dependabot/bundler/rspec-expectations-3.9.1 to clone.
-fatal: Remote branch dependabot/bundler/rspec-expectations-3.9.1 not found in upstream origin
-
-[31;1mThe command "eval git clone --depth=50 --branch=dependabot/bundler/rspec-expectations-3.9.1 https://github.com/RenoFi/jackhammer.git RenoFi/jackhammer " failed. Retrying, 2 of 3.[0m
-
-Cloning into 'RenoFi/jackhammer'...
-warning: Could not find remote branch dependabot/bundler/rspec-expectations-3.9.1 to clone.
-fatal: Remote branch dependabot/bundler/rspec-expectations-3.9.1 not found in upstream origin
-
-[31;1mThe command "eval git clone --depth=50 --branch=dependabot/bundler/rspec-expectations-3.9.1 https://github.com/RenoFi/jackhammer.git RenoFi/jackhammer " failed. Retrying, 3 of 3.[0m
-
-Cloning into 'RenoFi/jackhammer'...
-warning: Could not find remote branch dependabot/bundler/rspec-expectations-3.9.1 to clone.
-fatal: Remote branch dependabot/bundler/rspec-expectations-3.9.1 not found in upstream origin
-
-[31;1mThe command "eval git clone --depth=50 --branch=dependabot/bundler/rspec-expectations-3.9.1 https://github.com/RenoFi/jackhammer.git RenoFi/jackhammer " failed 3 times.[0m
-
-travis_time:end:006123f3:start=1585732282011969352,finish=1585732286302669530,duration=4290700178,event=checkout[0K$ cd RenoFi/jackhammer
-/home/travis/.travis/functions: line 109: cd: RenoFi/jackhammer: No such file or directory
-$ git checkout -qf 3af523e8dc44dd47ff50aa2c4636ccc468504bcf
-fatal: not a git repository (or any of the parent directories): .git
-[31;1mThe command "git checkout -qf 3af523e8dc44dd47ff50aa2c4636ccc468504bcf" failed and exited with 128 during .[0m
-
-Your build has been stopped.
